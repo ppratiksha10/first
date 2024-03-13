@@ -10,7 +10,13 @@ console.log(res);
 let p = document.getElementsByTagName("p");
 console.log(p);
 
-//query selector
+//query selector all
 
 let element = document.querySelectorAll("p");
 console.log(element);
+
+
+//query selector
+
+let ele = document.querySelector("p");
+console.log(ele);
