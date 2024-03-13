@@ -23,10 +23,10 @@ console.log(ele);
 
 //FOR ID QUERY SELECTOR
 
-let id = querySelector("#my");
+let id = document.querySelector("#my");
 console.log(id);
 
 //FOR CLASS QUERY SELECTOR
 
-let Q = querySelector(".class");
+let Q = document.querySelector(".class");
 console.log(Q);
