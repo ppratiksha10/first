@@ -20,3 +20,13 @@ console.log(element);
 
 let ele = document.querySelector("p");
 console.log(ele);
+
+//FOR ID QUERY SELECTOR
+
+let id = querySelector("#my");
+console.log(id);
+
+//FOR CLASS QUERY SELECTOR
+
+let Q = querySelector(".class");
+console.log(Q);
