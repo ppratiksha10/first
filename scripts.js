@@ -5,3 +5,7 @@ console.log(r);
 
 let res = document.getElementsByClassName("class");
 console.log(res);
+
+//document.getElementByClassName("")
+let p = document.getElementsByTagName("p");
+console.log(p);
