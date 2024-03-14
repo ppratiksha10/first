@@ -33,6 +33,8 @@ console.log(Q);
 
 
 */
+
+/*
 //Properties in DOM (document object model)
 
 // * innerText
@@ -53,3 +55,12 @@ let di = document.querySelector("div");
 console.log(di.innerHTML = "<div>inner Html</div>");
 
 
+*/
+
+
+//-----------Pratice------------//
+
+let h1 = document.querySelector("h1");
+console.log(h1.innerText);
+
+h1.innerText = h1.innerText + " from youtube";
