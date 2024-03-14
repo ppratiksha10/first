@@ -30,3 +30,8 @@ console.log(id);
 
 let Q = document.querySelector(".class");
 console.log(Q);
+
+
+//Properties in DOM (document object model)
+
+Q.tagName
