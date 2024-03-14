@@ -72,11 +72,30 @@ let divs = document.querySelectorAll(".box");
 console.log(divs);
 //to access indiidual
 
+
+/*
 console.log(divs[0]);
 console.log(divs[1]);
 console.log(divs[2]);
 
-//to change text indiidual 
+*/
+
+
+//to change text indiidual for beginner
+
+/*
+
 divs[0].innerText = "1st change";
 divs[1].innerText = "2nd change";
 divs[2].innerText = "3rd change";
+
+
+*/
+
+//using for of loop
+ let idx = 1;
+for(div of divs)
+{
+    div.innerText = `new uniques value ${idx}`;
+    idx++;
+}
