@@ -1,4 +1,4 @@
-/*let r = document.getElementById("h");
+/* let r = document.getElementById("h");
 console.log(r);
 
 //document.getElementByClassName("")
@@ -32,5 +32,10 @@ let Q = document.querySelector(".class");
 console.log(Q);
 
 */
+
 //Properties in DOM (document object model)
+
+let div = document.querySelector("div");
+console.log(div);
+
 
