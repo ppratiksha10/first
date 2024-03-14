@@ -3,3 +3,16 @@ p
    font-size: 24px;
    color: cadetblue;
 }
+
+.box{
+   height: 60px;
+   width: 100px;
+   border: 2px solid rgb(14, 145, 64);
+   background-color: cadetblue;
+   margin: 5px;
+   text-align: center;
+   color: beige;
+   padding: 15px;
+   font-size: 28px;
+   
+}
