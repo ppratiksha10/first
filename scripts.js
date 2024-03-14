@@ -31,11 +31,25 @@ console.log(id);
 let Q = document.querySelector(".class");
 console.log(Q);
 
-*/
 
+*/
 //Properties in DOM (document object model)
 
+// * innerText
 let div = document.querySelector("div");
-console.log(div);
+console.log(div.innerText);
+
+// * innerText change/set
+let d = document.querySelector("div");
+console.log(d.innerText = "abcd");
+
+
+// * innerHTML
+let dv = document.querySelector("div");
+console.log(dv.innerHTML);
+
+// * innerText change/set
+let di = document.querySelector("div");
+console.log(di.innerHTML = "<div>inner Html</div>");
 
 
