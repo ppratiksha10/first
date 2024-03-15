@@ -116,7 +116,6 @@ let id = div.getAttribute("class");
 
 console.log(id);
 
-*/
 
 let h2 = document.querySelector("h2");
 console.log(h2);
@@ -124,3 +123,24 @@ console.log(h2);
 
 let h = h2.setAttribute("id","id2");
 
+*/
+
+// style
+
+/*
+let div = document.querySelectorAll("div");
+console.log(div);
+console.log(div.style);
+
+*/
+
+// INSERT  new element
+
+let newbtn = document.createElement("button");
+newbtn.innerText = "click me !";
+
+let div = document.querySelector("div");
+//div.append(newbtn);
+//div.prepend(newbtn);
+//div.before(newbtn);
+div.after(newbtn);
