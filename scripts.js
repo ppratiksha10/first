@@ -134,6 +134,9 @@ console.log(div.style);
 
 */
 
+
+
+/*
 // INSERT  new element
 
 let newbtn = document.createElement("button");
@@ -144,3 +147,17 @@ let div = document.querySelector("div");
 //div.prepend(newbtn);
 //div.before(newbtn);
 div.after(newbtn);
+
+
+*/
+
+// Pratice
+
+let btn = document.createElement("button");
+btn.innerText = "Click ME!";
+
+btn.style.color = "white";
+btn.style.backgroundColor = "red";
+
+
+document.querySelector("body").prepend(btn);
