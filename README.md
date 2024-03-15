@@ -1,1 +1,1 @@
-# first
+# Learning JavaScript from Basic 

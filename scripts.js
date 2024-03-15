@@ -57,6 +57,7 @@ console.log(di.innerHTML = "<div>inner Html</div>");
 
 */
 
+/*
 
 //-----------Pratice------------//
 
@@ -107,8 +108,19 @@ for(div of divs)
 
 // Attriute in Document object model
 
+/*
 let div = document.querySelector("div");
 console.log(div);
 
 let id = div.getAttribute("class");
+
 console.log(id);
+
+*/
+
+let h2 = document.querySelector("h2");
+console.log(h2);
+
+
+let h = h2.setAttribute("id","id2");
+
