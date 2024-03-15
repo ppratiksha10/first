@@ -108,7 +108,7 @@ for(div of divs)
 // Attriute in Document object model
 
 let div = document.querySelector("div");
-console.log("div");
+console.log(div);
 
 let id = div.getAttribute("class");
-console.log("id");
+console.log(id);
