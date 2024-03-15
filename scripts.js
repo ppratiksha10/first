@@ -111,4 +111,4 @@ let div = document.querySelector("div");
 console.log("div");
 
 let id = div.getAttribute("class");
-console.log(id)
+console.log("id");
