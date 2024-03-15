@@ -167,3 +167,24 @@ document.querySelector("body").prepend(btn);
 
 
 */
+
+
+//event handing
+
+let btn1 = document.querySelector("#btn1");
+btn1.onclick = () =>{
+    console.log("button clicked");
+    alert("hello");
+}
+
+let btn2 = document.querySelector("#btn2");
+btn2.ondblclick = () =>{
+    console.log("button clicked");
+    alert("hello");
+}
+
+let div = document.querySelector("div");
+div.onmouseover = () =>
+{
+    console.log("hello");
+}
