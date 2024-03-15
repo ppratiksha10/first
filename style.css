@@ -4,7 +4,7 @@ p
    color: cadetblue;
 }
 
-.box{
+div{
    height: 100px;
    width: 100px;
    border: 2px solid rgb(14, 145, 64);

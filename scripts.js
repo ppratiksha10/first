@@ -153,6 +153,9 @@ div.after(newbtn);
 
 // Pratice
 
+
+/*
+
 let btn = document.createElement("button");
 btn.innerText = "Click ME!";
 
@@ -161,3 +164,6 @@ btn.style.backgroundColor = "red";
 
 
 document.querySelector("body").prepend(btn);
+
+
+*/
