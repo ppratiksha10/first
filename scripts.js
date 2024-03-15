@@ -92,10 +92,23 @@ divs[2].innerText = "3rd change";
 
 */
 
+/*
+
 //using for of loop
- let idx = 1;
+let idx = 1;
 for(div of divs)
 {
     div.innerText = `new uniques value ${idx}`;
     idx++;
 }
+
+*/
+
+
+// Attriute in Document object model
+
+let div = document.querySelector("div");
+console.log("div");
+
+let id = div.getAttribute("class");
+console.log(id)
